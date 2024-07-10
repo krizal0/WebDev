@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+/*header*/
+
+header {
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 60px;
+  margin-left:50px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: red;
+}
+
+.search1{
+    width: 330px;
+    float:left;
+    margin-left: 270px;
+  }
+  
+  .search2{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 30px;
+    width:200px;
+    background: transparent;
+    border: 1 px solid brown;
+    margin-top: 13px;
+    color:azure;
+    border-right: none;
+    font-size: 16px;
+    float:left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+  
+  .search3{
+    width: 10px;
+    height: 30px;
+    background: brown;
+    border: 2px solid brown;
+    margin-top: 14px;
+    color: whitesmoke;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .search2:focus{
+    outline: none;
+  }
+
+.contact {
+  background-color: #070e16;
+  padding: 80px 0;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.info-item {
+  margin: 0 20px;
+  text-align: center;
+}
+
+.info-item i {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  display: inline-block;
+  background-color: red;
+  color: whitesmoke;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: red;
+}
+
+
+/* Footer*/
+
+.footer {
+  background-color: black;
+  padding: 40px 0;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.footer-links a {
+  color: whitesmoke;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-text {
+  font-size: 14px;
+}
